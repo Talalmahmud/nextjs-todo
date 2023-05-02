@@ -12,7 +12,7 @@ import { redirect } from "next/navigation";
 //     "This is the login todo app. You can add and modify your daily todos.",
 // };
 
-const page = () => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { user, setUser } = useContext(Context);
@@ -72,4 +72,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;

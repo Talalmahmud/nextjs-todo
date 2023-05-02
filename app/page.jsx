@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import Form from "./addTodoForm";
 import Todos from "./todos";
 
-const page = async () => {
+const Home = async () => {
   return (
     <div className="container">
       {" "}
@@ -20,4 +20,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default Home;

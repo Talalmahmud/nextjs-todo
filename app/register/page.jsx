@@ -12,7 +12,7 @@ import { toast } from "react-hot-toast";
 //     "This is the register todo app. You can add and modify your daily todos.",
 // };
 
-const page = () => {
+const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
@@ -84,4 +84,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Register;
