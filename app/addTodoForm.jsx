@@ -4,11 +4,11 @@ import { redirect, useRouter } from "next/navigation";
 import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 
-export const metadata = {
-  title: "Add todo",
-  description:
-    "This is the add todo app. You can add and modify your daily todos.",
-};
+// export const metadata = {
+//   title: "Add todo",
+//   description:
+//     "This is the add todo app. You can add and modify your daily todos.",
+// };
 
 const Form = () => {
   const [title, setTitle] = useState("");

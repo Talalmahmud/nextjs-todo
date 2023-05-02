@@ -6,11 +6,11 @@ import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 import { redirect } from "next/navigation";
 
-export const metadata = {
-  title: "Login App",
-  description:
-    "This is the login todo app. You can add and modify your daily todos.",
-};
+// export const metadata = {
+//   title: "Login App",
+//   description:
+//     "This is the login todo app. You can add and modify your daily todos.",
+// };
 
 const page = () => {
   const [email, setEmail] = useState("");

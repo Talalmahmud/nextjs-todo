@@ -6,11 +6,11 @@ import { redirect } from "next/navigation";
 import React, { useContext, useState } from "react";
 import { toast } from "react-hot-toast";
 
-export const metadata = {
-  title: "Register App",
-  description:
-    "This is the register todo app. You can add and modify your daily todos.",
-};
+// export const metadata = {
+//   title: "Register App",
+//   description:
+//     "This is the register todo app. You can add and modify your daily todos.",
+// };
 
 const page = () => {
   const [name, setName] = useState("");
